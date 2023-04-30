@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="login-form">
+      <input id="login-input" type="text" placeholder="What is your name?" />
+      <button>Log In</button>
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+    <h2 id="clock"></h2>
+    <form id="todo-form">
+      <input
+        id="todo-input"
+        type="text"
+        placeholder="write a To Do and Press Enter"
+        required
+      />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="weather">
+      <span id="weather_data"></span>
+      <span id="weather_city"></span>
+    </div>
+    <script src="js/todolist.js"></script>
+    <script src="js/logIn.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
